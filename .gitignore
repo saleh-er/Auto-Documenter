@@ -1,0 +1,19 @@
+# Secrets and Credentials
+.env
+credentials.json
+
+# Python Virtual Environment
+env/
+venv/
+ENV/
+bin/
+lib/
+include/
+
+# Node.js (if you use n8n locally)
+node_modules/
+npm-debug.log
+
+# System Files
+.DS_Store
+Thumbs.db
