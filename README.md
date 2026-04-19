@@ -36,6 +36,5 @@ This project is powered by an n8n workflow that connects GitHub's event system t
    - Every push will now trigger an automatic documentation update.
 
 ---
-author: saleh
 ## 📜 Automated Changelog
 *This section is managed by the Auto-Documenter AI. New updates will appear below.*
