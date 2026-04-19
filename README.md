@@ -2,7 +2,7 @@
 
 A high-performance, low-code automation tool that monitors your GitHub repository and uses **Groq-powered LLMs** to automatically generate professional documentation summaries.
 
----
+-----
 
 ## 🏗️ Workflow Architecture
 
