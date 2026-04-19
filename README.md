@@ -3,12 +3,11 @@
 A high-performance, low-code automation tool that monitors your GitHub repository and uses **Groq-powered LLMs** to automatically generate professional documentation summaries.
 
 -----
-
 ## 🏗️ Workflow Architecture
 
 This project is powered by an n8n workflow that connects GitHub's event system to Groq's ultra-fast Llama 3 models.
 
-![n8n Workflow Screenshot](assets/workflow.png)
+![n8n Workflow Screenshot](assets/workflowschema.png)
 
 ### ⚡ How it Works:
 1. **GitHub Trigger:** Detects a `push` event in the repository.
