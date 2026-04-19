@@ -1,45 +1,9 @@
-# 🤖 GitHub Auto-Documenter (n8n + Groq AI)
+**Changelog Entry**
 
-A high-performance, low-code automation tool that monitors your GitHub repository and uses **Groq-powered LLMs** to automatically generate professional documentation summaries.
+* **Commit Message:** The commit message is currently not specified, as it is represented by the placeholder `{{ $json.head_commit.message }}`. 
+* **Modified Files:** The following files have been modified: `{{ $json.head_commit.modified.join(', ') }}`. 
+Please replace the placeholders with the actual commit message and modified files to generate a complete changelog entry. 
 
----
-
-## 🏗️ Workflow Architecture
-
-This project is powered by an n8n workflow that connects GitHub's event system to Groq's ultra-fast Llama 3 models.
-
-![n8n Workflow Screenshot](assets/workflowschema.png)
-
-### ⚡ How it Works:
-1. **GitHub Trigger:** Detects a `push` event in the repository.
-2. **AI Agent (Groq):** Analyzes the commit messages and modified files using **Llama-3.3-70B**.
-3. **GitHub Writer:** Automatically updates this README with a professional summary of the changes.
-
----
-
-## 🛠️ Tech Stack
-
-| Tool | Purpose |
-| :--- | :--- |
-| **n8n** | Workflow Orchestration & Logic |
-| **Groq** | Ultra-fast LLM Inference (Llama 3.3-70B) |
-| **GitHub API** | Version Control & Webhook Trigger |
-| **Markdown** | Dynamic Documentation Formatting |
-
----
-
-## 🔧 Installation & Setup
-
-1. **n8n Configuration:**
-   - Import the provided JSON workflow.
-   - Set up your **Groq API Key** and GitHub **Personal Access Token**.
-2. **Webhook Setup:**
-   - Point your GitHub repository Webhook to your n8n Production URL.
-   - Set Content-type to `application/json`.
-3. **Enjoy Automation:**
-   - Every push will now trigger an automatic documentation update.
-
----
-
-## 📜 Automated Changelog
-*This section is managed by the Auto-Documenter AI. New updates will appear below.*
+Example of a completed changelog entry:
+* **Commit Message:** Update functionality to improve performance
+* **Modified Files:** file1.js, file2.css, README.md
