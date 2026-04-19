@@ -14,7 +14,6 @@ This project is powered by an n8n workflow that connects GitHub's event system t
 2. **AI Agent (Groq):** Analyzes the commit messages and modified files using **Llama-3.3-70B**.
 3. **GitHub Writer:** Automatically updates this README with a professional summary of the changes.
 -----
-
 ## 🛠️ Tech Stack
 
 | Tool | Purpose |
@@ -37,6 +36,6 @@ This project is powered by an n8n workflow that connects GitHub's event system t
    - Every push will now trigger an automatic documentation update.
 
 ---
-
+author: saleh
 ## 📜 Automated Changelog
 *This section is managed by the Auto-Documenter AI. New updates will appear below.*
