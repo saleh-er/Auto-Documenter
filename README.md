@@ -25,7 +25,6 @@ This project is powered by an n8n workflow that connects GitHub's event system t
 | **Markdown** | Dynamic Documentation Formatting |
 
 ---
-
 ## 🔧 Installation & Setup
 
 1. **n8n Configuration:**
