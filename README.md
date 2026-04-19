@@ -59,7 +59,7 @@ This project solves the "lazy developer" problem by automating the most tedious 
 ## 📜 Automated Changelog
 *This section is managed by the Auto-Documenter AI.*
 
----
+------
 
 ## 🤝 Contributing
 Feel free to fork this project and add features like **Slack/Discord notifications** or **Automatic Release notes**!
